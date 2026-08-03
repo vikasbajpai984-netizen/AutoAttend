@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.vscode/
+.DS_Store
+.VirtualEnvironment/
+*.pyc
+
+.strealit/
+
+dist/
