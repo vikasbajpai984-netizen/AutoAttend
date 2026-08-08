@@ -31,25 +31,25 @@ def base_style_layout():
     st.markdown("""
             <style>
                 
-                
                 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
                 
                 
-                /* hide top bar in streamlit */
-                #MainMenu , header, footer {
-                    visibility: hidden;
-                }
-                .block-container{
-                    padding-top: 1rem  ! important;
+                # /* hide top bar in streamlit */
+                # #MainMenu , header, footer {
+                #     visibility: hidden;
+                # }
+                # .block-container{
+                #     padding-top: 1rem  ! important;
                     
                     
                 h1{
                     font-family : 'Climate crisis' , sans-serif !important;
-                    font-size : 3.5rem !important;
-                    line-height : 1.1 !important;
+                    font-size : 20rem !important;
+                    line-height : 0.9 !important;
                     margin-bottom : 0rem !important;
                 }
+                
                 h2{
                     font-family : 'Climate crisis' , sans-serif !important;
                     font-size : 2rem !important;
@@ -63,7 +63,7 @@ def base_style_layout():
                 }
                 button{
                     border-radius : 1.5rem !important;
-                    background-color: #5865F2 !important;
+                    background-color: blue !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;

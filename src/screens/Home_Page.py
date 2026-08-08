@@ -1,9 +1,11 @@
 import streamlit as st 
-from src.Header_home import Header_home
+from src.components.Header_home import header_home
 from src.ui.base_style import style_background_home , base_style_layout, style_background_dashboard
-from src.Footer import footer_home
+from src.components.Footer import footer_home
+
+
 def Home_Page():
-    Header_home()
+    header_home()
     style_background_home()
     base_style_layout()
     style_background_dashboard()
