@@ -35,35 +35,34 @@ def base_style_layout():
                 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
                 
                 
-                # /* hide top bar in streamlit */
-                # #MainMenu , header, footer {
-                #     visibility: hidden;
-                # }
-                # .block-container{
-                #     padding-top: 1rem  ! important;
+                /* hide top bar in streamlit */
+                #MainMenu , header, footer {
+                    visibility: hidden;
+                }
+                .block-container{
+                    padding-top: 1.5rem  ! important;
                     
                     
                 h1{
                     font-family : 'Climate crisis' , sans-serif !important;
-                    font-size : 20rem !important;
-                    line-height : 0.9 !important;
+                    font-size : 3.5rem !important;
+                    line-height : 1.1 !important;
                     margin-bottom : 0rem !important;
                 }
                 
                 h2{
                     font-family : 'Climate crisis' , sans-serif !important;
                     font-size : 2rem !important;
-                    line-height : 1.1 !important;
+                    line-height : 0.9 !important;
                     margin-bottom : 0rem !important;
-                    color:black !important;
                 }
                 
-                h3,h4,p,span{
-                    font-family : 'Outfit' , sans-serif !important;
+                h3,h4,p{
+                    font-family : 'Outfit' , sans-serif ;
                 }
                 button{
                     border-radius : 1.5rem !important;
-                    background-color: blue !important;
+                    background-color: #5865F2 !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;

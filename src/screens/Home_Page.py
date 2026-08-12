@@ -8,7 +8,7 @@ def Home_Page():
     header_home()
     style_background_home()
     base_style_layout()
-    style_background_dashboard()
+    
 
    
     col1,col2 = st.columns(2,gap="large")
