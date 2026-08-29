@@ -8,3 +8,5 @@ __pycache__/
 .strealit/
 
 dist/
+SKILL.md
+.agents

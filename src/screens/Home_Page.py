@@ -15,13 +15,13 @@ def Home_Page():
     with col1:
         st.header("I'am Teacher")
         st.image("https://i.ibb.co/CsmQQV6X/mascot-teacher.png",width=145)
-        if st.button("Login as Teacher",type="primary",icon="↗️"):
+        if st.button("Teacher Portal",type="primary",icon="↗️"):
             st.session_state['login_type'] = 'Teacher'
             st.rerun()
     with col2:
         st.header("I'am Student")
         st.image("https://i.ibb.co/844D9Lrt/mascot-student.png",width=120)
-        if st.button("Login as student",type="primary", icon="↗️"):
+        if st.button("Student Portal",type="primary", icon="↗️"):
             st.session_state['login_type'] = 'Student'
             st.rerun()
                     

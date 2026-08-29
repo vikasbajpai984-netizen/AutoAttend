@@ -52,9 +52,10 @@ def base_style_layout():
                 
                 h2{
                     font-family : 'Climate crisis' , sans-serif !important;
-                    font-size : 2rem !important;
+                    font-size : 2.0rem !important;
                     line-height : 0.9 !important;
                     margin-bottom : 0rem !important;
+                    margin-top : -1rem !important;
                 }
                 
                 h3,h4,p{
@@ -87,6 +88,7 @@ def base_style_layout():
                 button:hover{
                     transform: scale(1.05) !important;
                 }
-                
+             
+                  
             </style>
                 """,unsafe_allow_html=True) 

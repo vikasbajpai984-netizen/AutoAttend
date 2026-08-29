@@ -10,10 +10,10 @@ def header_home():
             
                   """,unsafe_allow_html=True)
     
-def Header_teacher_dashboard():
+def Header_dashboard():
     logo_url="https://i.ibb.co/YTYGn5qV/logo.png"
     st.markdown(f"""
-        <div style="display:flex;align-items:left;justify-content:left; gap:15px; margin-top:35px;">
+        <div style="display:flex;align-items:left;justify-content:left; gap:15px;">
             <img src='{logo_url}' style='height: 80px';/>
             <h2 style='text-align:center ; color:#5865F2;'>AUTO <br/>  ATTEND</h2>
         </div>
