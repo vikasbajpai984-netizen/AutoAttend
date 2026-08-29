@@ -5,7 +5,7 @@ import io
 @st.dialog("Share class link")
 def share_subject(sub_name, sub_code):
     
-    app_domain = "AutoAttend-main.streamlit.app"
+    app_domain = "autoattend-main.streamlit.app"
     join_url = f"{app_domain}/?join-code={sub_code}"
     
     st.header("Scan to join")
