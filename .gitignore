@@ -5,7 +5,7 @@ __pycache__/
 .VirtualEnvironment/
 *.pyc
 
-.strealit/
+.streamlit/
 
 dist/
 SKILL.md
