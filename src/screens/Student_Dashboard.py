@@ -39,13 +39,14 @@ def student__dashboard():
     with st.spinner("Loading your subjects ⏳..."):
         subjects = get_student_subjects(student_id)
         logs = get_student_attendance(student_id)
+        print(logs)
     stats_map = {}
     for log in logs:
         sid = log["sub_id"]
         if sid not in stats_map:
             stats_map[sid] = {"Total":0,"Attended":0}
         stats_map[sid]["Total"] += 1 
-        if logs.get("is_present"):
+        if log.get('is_present'):
             stats_map[sid]["Attended"] +=1
             
     cols = st.columns(2)
@@ -112,7 +113,7 @@ def Student_Dashboard():
             else:
                
                 if detected :
-                    print("hiii")
+                    
                     student_id = list(detected.keys())[0]
                     all_students = get_all_students() 
                     student = next((s for s in all_students if s["student_id"] == student_id),None)
