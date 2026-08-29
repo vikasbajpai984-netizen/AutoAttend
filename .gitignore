@@ -1,12 +1,34 @@
 .env
-.vscode
-
-*.pyc
 __pycache__/
+.vscode/
 .DS_Store
+.VirtualEnvironment/
+*.pyc
 
-VirtualEnvironment/
-.streamlit/
+.strealit/
 
 dist/
+SKILL.md
+
+.agents/
+.cph
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
