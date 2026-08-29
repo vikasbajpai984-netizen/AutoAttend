@@ -9,4 +9,5 @@ __pycache__/
 
 dist/
 SKILL.md
-.agents
+.agents/skills
+.cph
